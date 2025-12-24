@@ -1,0 +1,28 @@
+.background
+.background.mp2
+
+# Dependencies
+/node_modules
+
+# Build files
+/dist
+/build
+/.out
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# IDE & Editor directories
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

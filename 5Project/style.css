@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "libre Baskerville"  , sans-serif; */
+
+}
+
+html,body {
+    height:  100%;
+    width: 100%;
+    background-color: black;
+}
+
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: cornflowerblue;
+} */
+
+/* .card{
+    border-radius: 10px;
+    height: 420px;
+    width: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.card h5 {
+    font-size: 25px;
+    color: red;
+    margin: 10px;
+
+}
+
+.card button {
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor:pointer;
+} */
+
+
+/* .card #remove{
+    background-color: bisque;
+    color:black;
+    font-weight: 800;
+
+} */
+
+
+/* First project end  */
+
+
+
+
+/* Second project Start  */
+
+/* 
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: blanchedalmond;
+    margin: 10px 50px;
+    margin-top: 70px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.container i{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); 
+    opacity: 0;
+    transition: all ease 0.5s;
+} */
+
+
+
+/* Third project Start  */
+
+
+
+/* #main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    white-space: nowrap;
+
+
+}
+
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #95C11E;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+    z-index: 99;
+    
+    
+}
+
+.cursor-blur{
+    height: 350px;
+    width: 350px;
+    background-color: rgba(150, 194, 30, 0.29);
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(50px);
+    z-index: 9;
+    
+}
+
+  h3 {
+    font-size: 70px;
+    color: white;
+    position: fixed; 
+}  */
+
+
+
+
+
+/* Forth project Start  */
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #2F4F7F;
+    /* display: flex; */
+    position: relative;
+
+}
+
+.elem{
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.elem h1 {
+    font-size: 9vh;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+    color: aliceblue;
+}
+
+.elem img{
+    height: 90px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+
+
+
+
+
+
+
+/* <!-- Last project start  */
+
+
+
+/* 
+.container .card .face-face1 {
+    display: flex;
+    position: relative;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+
+
+}
+
+.container .card:hover .face-face1 {
+    background-color: #ff0057;
+    transform: translateY(0px);
+
+}
+
+.container .card .face-face1 .content i{
+    max-width: 100px;
+}
+
+.container .card .face-face2{
+    display:flex;
+    position: relative;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0reen, 0, 0.8);
+    transform: translateY(-100px);
+
+}
+
+
+.container .card:hover  .face-face2 {
+    transform: translateY(0px);
+} */

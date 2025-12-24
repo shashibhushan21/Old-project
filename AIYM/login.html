@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+
+        <!-- header 1st start -->
+
+  <section class="header-st">
+
+    <div class="main-logo">
+        
+        <a href ="index.html"> <img src ="imge/logo.png"></a>
+            <div class="head">
+                <h1>ALL  INDIA YADAV MAHASABHA</h1>
+           </div>
+        
+         </div>
+    
+  </section>
+
+  <!-- header 1st end -->
+
+  
+  
+  <!-- header 2nd start -->
+  
+  <section class ="header">
+     
+   <nav>
+    <div class="nav-link" id ="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <i class="fa -solid fa-house-chimney" onclick="homeMenu()"></i>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT Org.</a></li>
+                <li><a href="course.html">VISION</a></li>
+                <li><a href="blog.html">OUR AIM</a></li>
+                <li><a href="blog.html">CERTFICATE</a></li>
+                <li><a href="contact.html">MEDIA</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <a href ="login.html" class ="hero-btn">LOGIN</a>
+    </nav>
+
+</section>
+
+
+<!-- header 2nd End -->
+
+
+<section class="logen">
+    <div class="contact-col">
+
+        <h2>Login / Sign Up</h2>
+        <form>
+            
+            <input type="Email" name="email" placeholder="Enter Email">
+            <input type="password" name="password" placeholder="Enter Password" autocomplete="current-password">
+             <button type="Sibmit" class="cont-Button"> LOGIN</button>
+       </form>
+       
+       <details>
+        <form>
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="Email" name="email" placeholder="Enter Email">
+            <input type="number" name="number" placeholder="Enter Contact number">
+            <input type="text" name="subject" placeholder="Membership Type"> 
+             <input type="password" name="password" placeholder="Create  Password">
+             <button type="button" class="cont-Button" onclick="openPopup()"> Submit</button>
+
+             <!-- <div class="input-group">
+              <label>FullName</label>
+              <input type="text"  name="name" placeholder="Enter Your Name">
+             </div>
+
+             <div class="input-group">
+              <label>Phone No.</label>
+              <input type="tel"  name="name" placeholder="123 456 7890">
+             </div>
+
+             <div class="input-group">
+              <label>Email Id</label>
+              <input type="email"  name="name" placeholder="Enter  Email">
+             </div>
+
+             <div class="input-group">
+              <label></label>
+              <input type="text" name="subject" placeholder="Membership Type"> 
+            </div>
+
+            <div class="input-group">
+              <label></label>
+              <input type="text" name="subject" placeholder="Membership Type"> 
+            </div>
+
+
+            <button type="button" class="cont-Button" onclick="openPopup()"> Submit</button>  -->
+
+
+
+        </form>
+      
+        <summary>
+          (<b>Click</b> for Registration)
+        </summary>
+       </details>
+
+    </div>
+
+    <div class="popup"  id="popup">
+
+      <img src="https://cdn-icons-png.flaticon.com/128/5610/5610944.png" alt="">
+      <h2>Thank You!</h2>
+      <p>Your details has been successfully submitted. Thanks!</p>
+      <button onclick="closePopup()">Back to Home</button>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    
+     <!-- footer part start -->
+      
+     <div class="footer">
+        <div class="footer-panel">
+          <div class="f1">
+            <ul>
+              <li><a id="h2" href="about.html"> ABOUT US</a></li>
+              <li> <a href="about.html">About Org.</a></li>
+              <li><a href="">VISION</a></li>
+              <li><a href="">Our aim</a></li>
+            </ul>
+          
+  
+       </div>
+  
+  
+       <div class="f1">
+        <ul>
+          <li><a id="h2" href="">FOLLOW US</a></li>
+          <li> <i class="fa-brands fa-square-facebook"></i> <a href="">facbook</a></li>
+  
+             <li><i class="fa-brands fa-square-instagram"></i> <a href="">instagram</a></li>
+  
+              <li> <i class="fa-brands fa-x-twitter"></i> <a href="">twitter</a></li>
+  
+            <li> <i class="fa-brands fa-youtube"></i> <a href="">youtub</a></li>
+        </ul>
+  
+   </div>
+  
+  <div class="f2">
+    <img src="https://yadavsmovement.in/images/radha_krishna.png" alt="">
+    <!-- <div class="layer">
+      <h2>jay sree </h2>
+    </div> -->
+  </div>
+  
+  
+   <div class="f3">
+    <h1>membership</h1>
+  
+    <a href ="login.html" class ="hero-btn" id ="size1">sign up</a><br>
+    <a href ="contact.html" class ="hero-btn" id="size2" >JOIN</a><br>
+     
+    <a href ="#" class ="hero-btn" id="size2" >E-mail</a><br>
+    <!-- <div class="f3"> -->
+      <h2>allindiayadavmahasabha@gmail.com</h2>
+    <!-- </div> -->
+    
+  
+  </div>
+  
+  
+  
+  
+        </div>
+  
+      </div>
+  
+  
+        <!-- footer part end -->
+        <script src="script.js"></script>
+    
+</body>
+</html>

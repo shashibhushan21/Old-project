@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      
+    <div class="header">
+        <h1>StopWatch</h1>
+    </div>
+
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img id="stop" src="https://icon-library.com/images/stop-button-icon/stop-button-icon-10.jpg" onclick = "watchStop()">
+            <img id="play" src="https://www.freeiconspng.com/uploads/play-button-icon-png-27.png" onclick = "watchStart()">
+            <img src="https://icon-library.com/images/reset-icon-png/reset-icon-png-8.jpg" onclick = "watchReset()">
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>

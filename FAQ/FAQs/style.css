@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+html,
+body{
+    background-color: lemonchiffon;
+}
+
+.Wrapper{
+    max-width: 75%;
+    margin: 0 auto;
+    max-height: 10vh;
+    
+}
+.Wrapper >p,
+.Wrapper >h1{
+    margin: 1.5vw;
+    text-align: center;
+}
+.Wrapper >h1{
+    letter-spacing: 3px;
+}
+
+.according{
+    background-color: aliceblue;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: none;
+    outline: none;
+    transition: all ease-in-out 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-weight: bold;
+}
+
+.according i{
+    font-size: 1.6rem;
+}
+
+.active, .according:hover{
+    /* background-color: #4CAF50; */
+    background-color: rgb(217, 236, 253);
+}
+.pannel{
+    padding: 0px 2rem 2.5rem 2rem;
+    /* background-color: aliceblue; */
+    overflow: hidden;
+    background-color: rgb(217, 236, 253);
+    display: none;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.pannel p{
+    color: rgba(0,0,0,0.7);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    
+}
+.pannel p::selection{
+    background-color: black;
+    color: aliceblue;
+}
+
+.faq{
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 10px 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+   
+}
+.faq.active{
+    border: none;
+   
+}
+/* .faq.active{
+   border-bottom-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+} */

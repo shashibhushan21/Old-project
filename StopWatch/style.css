@@ -1,0 +1,62 @@
+/* .css-selector {
+    font-family: 'Font Name', serif;
+    } */
+
+
+body{
+    background: #edeaff;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    margin-top: 90px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://tse1.mm.bing.net/th?id=OIP.vlFp_jWM3fklHxAHuX1MyAHaEo&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 20px;
+    color: #fff;
+    margin: 15px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons img{
+   height: 50px;
+   color: #fff;
+   cursor: pointer;
+  
+}
+.buttons #play{
+  height: 80px;
+}
+
+.buttons #stop{
+   height: 68px;
+   cursor: pointer; 
+}
+
+.stopwatch h1{
+   margin-top: 60px;
+   font-size: 64px;
+   font-weight: 600;
+}
+

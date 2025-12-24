@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: linear-gradient(to right, #ff7e5f, #feb47b);
+/* From a soft purple to a light pink */
+}
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: wheat;
+    border-radius: 10px;
+  
+
+}
+
+.container p{
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.container input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #494eea;
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 0 8px 0px rgba(0,0,0.3);
+}
+
+.container button{
+    
+    width: 100%;
+    height: 50px;
+    background: #494eea;
+    border: 2px solid rgb(24, 24, 24);
+    color: beige;
+    outline: 0;
+    padding: 1px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0px rgba(0,0,0.2);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#imgBox{
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#imgBox img{
+    width: 100%;
+    padding: 10px;
+}
+#imgBox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid  #ccc;
+
+ }
+
+ .error{
+    animation: shake 0.1s linear 10;
+ }
+
+ @keyframes  shake{
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(2px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+   
+    
+ }
+
+ @media(max-width:700px){
+    .container{
+        width: 330px;
+    }
+ }
+   

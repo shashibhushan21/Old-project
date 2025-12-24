@@ -1,0 +1,219 @@
+/* item-section ya itembox1  */
+.smartphone{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    padding-left: 15px;
+
+
+}
+.item-section{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 300px;
+  
+    
+}
+
+.item1{
+    display:flex;
+    align-items: center;
+    background-size:contain;
+    height: 160px;
+    width: 170px;
+    
+}
+
+.item1:hover{
+    transform: scale(1.04);
+}
+
+
+
+/*advertisement box= 5  */
+
+
+
+.item-adv{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
+
+/* .item-adv:hover{
+    transform: scale(0.9);
+} */
+
+.a2 {
+    width: 399px;
+}
+
+/* fashion box = 6 */
+
+.fasion-text{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    background-color:white;
+    height: 60px;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fashion{
+    /* display:flexbox; */
+    /* flex-wrap: wrap; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    justify-items: center;
+    background-color:white;
+    height: 240px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* color: black; */
+    
+}
+
+.fashion-contant{
+    /* display:flexbox;
+    align-items: center;
+    justify-content: center; */
+   height: 225px;
+   width: 172px;
+   border: 1px solid black;
+   
+   
+}
+
+.img1{
+  height: 168px;
+  width: 150px;
+  padding: 10px;
+}
+
+.img1-text{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.img1-text p{
+    font-size: small;
+    color:#6b6868;
+    font-weight: 0;
+}
+
+
+.img1:hover{
+    transform: scale(1.07);
+    
+}
+
+     /* box last 10 */
+
+     /* footer */
+
+.foot-panel{
+    margin-top: 20px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    height: 257px;
+    background-color:#172337;
+}   
+
+.foot-panel2{
+    /* background-color: #222f3d; */
+    color: rgb(156, 159, 161);
+    height:255px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot-panel3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#172337;
+    color: rgb(156, 159, 161);
+    height: 70px;
+}
+
+.payment-methods{
+    width: 400px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 10px;
+    color:white;
+   
+}
+
+ul p{
+    font-size:small;
+    font-size: .70rem;
+    /* font-weight: 700; */
+    margin-top: 25px;
+}
+
+ul i{
+    color: white;
+    display: flex;
+    /* margin-top: 25px; */
+    justify-items: center;
+    align-items: center;
+}
+
+ul a:hover{
+    text-decoration: underline;
+    text-decoration-color:aliceblue;
+    /* text-transform:uppercase; */
+}
+
+.horizontal-line{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* align-items: center; */
+}
+
+
+.info1{
+    line-height: 17px;
+}
+
+.info2{
+    margin-right: 15px;
+    /* text-indent: 50px; */
+    /* line-height-step: 2px; */
+    line-height: 17px;
+}
+
+
+
+/* Box last  */
+
+
+
+.foot-panel3{
+    display: flex;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}

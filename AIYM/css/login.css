@@ -1,0 +1,160 @@
+
+
+.logen{
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.contact-col{
+    /* border: 2px solid black; */
+    padding: 25px;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0px rgba(0,0,0.3);
+}
+
+
+.contact-col h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.contact-col input{
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* text-shadow: ; */
+    box-shadow: 0 0 8px 0px rgba(0,0,0.2);
+    
+}
+
+
+.contact-col details form{
+    margin-top: 13px;
+    
+}
+
+
+.cont-Button{
+    margin-bottom: 8px;
+    height: 25px;
+    padding: 5px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0px rgba(0,0,0.2);
+    cursor: pointer;
+}
+
+.cont-Button:hover{
+    background-color: #f44336;
+    transition: 1s;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(199, 185, 185);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+.popup.open-popup{
+    display: block;
+}
+
+.open-popup{
+    visibility:visible;
+    top: 50%;
+    transform: translate(-50%, -50%)scale(0.1);
+
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 0px rgba(0,0,0.3);
+
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.popup p{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.popup button{
+    margin-bottom: 8px;
+    height: 25px;
+    padding: 5px;
+    color: black;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0px rgba(0,0,0.2);
+}
+.popup button:hover{
+    background-color: #f44336;
+    transition: 1s;
+    cursor: pointer;
+} 
+
+@media(max-width:700px){
+    .logen{
+        display: flex;
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+       
+        
+        
+    }
+
+    .contact-col form{
+        padding: 20px;
+        margin: auto;
+        
+    }
+
+    /* .contact-col{
+        width: 85%;
+    } */
+}

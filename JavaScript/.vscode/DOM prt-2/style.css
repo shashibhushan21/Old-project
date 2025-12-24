@@ -1,0 +1,16 @@
+.box{
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-Class p{
+    background-color: yellowgreen;
+}
+
+.para{
+    color: yellow;
+}

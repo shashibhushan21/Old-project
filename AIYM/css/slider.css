@@ -1,0 +1,174 @@
+
+
+.slider{
+    width: 100%;
+    height: 400px;
+    /* margin: 10px;
+    padding: 10px; */
+    /* border-radius: 10px; */
+    overflow: hidden;
+
+}
+
+.slides{
+  width: 600%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+width: 20%;
+transition: 2s;
+}
+
+.slides img{
+   width: 100%;
+   height: 400px;
+}
+
+.navigation-manual{
+   position: absolute;
+   width: 100%;
+   margin-top: -40px;
+   display: flex;
+   justify-content:center ;
+}
+
+.manual-btn{
+   border: 2px solid black;
+   padding: 5px;
+   margin-top: -10px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+   margin-right: 40px; 
+}
+
+.manua2-btn:hover{
+    background: black;
+}
+
+
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -96%;
+}
+
+
+/* css for automatic navigation */
+
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 350px;
+
+}
+
+.navigation-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: orange;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #ffffff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: green;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: orange;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #ffffff;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: green;
+}
+
+@media(max-width:700px){
+    .slider{
+        width: 100%;
+        height: 200px;
+        /* margin: 10px;
+        padding: 10px; */
+        border-radius: 10px;
+        /* overflow: hidden; */
+    
+    }
+
+    .slides{
+        width: 600%;
+        height: 200px;
+        display: flex;
+      }
+
+      .slides img{
+        width: 100%;
+        height: 200px;
+     }
+
+
+     .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 150px;
+    
+    }
+
+
+     
+
+}
+
+
+
+

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav>
+        <div class="nav-left">  
+            <img src="images/logo.png" class="logo"> 
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li> <img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>   
+        </div>
+
+
+        <div class="nav-right">
+
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <button type="button" class="nav-user-icon online" onclick="settingsMenuToggle()" aria-label="User menu">
+                <img src="images/profile-pic.png" alt="User Profile Picture">
+            </button>
+        </div>
+
+
+        <!-- -----------setting-menu---------- -->
+
+
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+                <!-- <i class="fa-solid fa-moon"></i> -->
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>John Nicholson</p>
+                       <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                       <a href="#">Help us to Improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon" alt="">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" 
+                        alt="arrow icon"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" 
+                        alt="arrow icon"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon" alt="">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" 
+                        alt="arrow icon"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon" alt="">
+                    <a href="#">Logout <img src="images/arrow.png" 
+                        alt="arrow icon"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+    <main class="container">
+
+        <!-- -----------left-sidebar---------- -->
+        <aside class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="images/news.png" alt=""> Latest News</a>
+                <a href="#"><img src="images/friends.png" alt=""> Friends</a>
+                <a href="#"><img src="images/group.png" alt=""> Group</a>
+                <a href="#"><img src="images/marketplace.png" alt=""> Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt=""> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-link">
+               <p>Your Shortcuts</p>
+               <a href=""><img src="images/shortcut-1.png" alt="">Web Developers</a> 
+               <a href=""><img src="images/shortcut-2.png" alt="">Web Design course</a> 
+               <a href=""><img src="images/shortcut-3.png" alt="">Full Stack Development</a> 
+               <a href=""><img src="images/shortcut-4.png" alt="">Website Experts</a> 
+            </div>
+        </aside>
+
+        <!-- -----------main-container---------- -->
+
+        <div class="main-content">
+            <section class="story-gallery" aria-label="Stories">
+
+                <div class="story story1">
+                    <img src="images/upload.png" alt="Upload story">
+                    <p> Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="Saurabh's story">
+                    <p>Saurabh</p>
+                </div>
+
+                <div class="story  story3">
+                    <img src="images/member-2.png" alt="Shashi's story">
+                    <p> Shashi</p>
+                </div>
+
+                <div class="story  story4">
+                    <img src="images/member-3.png" alt="Nishi's story">
+                    <p> Nishi </p>
+                </div>
+
+                <div class="story  story5">
+                    <img src="images/member-4.png" alt="Ankit's story">
+                    <p>Ankit</p>
+                </div>
+            </section>
+
+            <section class="write-post-container" aria-labelledby="write-post-heading">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="Your profile picture">
+                    <div>
+                        <p id="write-post-heading">John Nicholson</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, John?" aria-label="Create a new post"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <article class="post-container">
+                <header class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="John Nicholson's profile picture">
+                        <div>
+                            <p>John Nicholson</p>
+                           <time datetime="2024-06-24T13:40:00">June 24 2024, 13:40 pm</time>
+                        </div>
+                    </div>
+                    <a href="#" aria-label="Post options"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </header>
+               
+                <p class="post-text">Subscribe<span> @Gamo ki Potli </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Deserunt natus recusandae, magnam nulla vel in? <a href="#">Instagram</a>
+                <a href="#">YouTubeChannel</a></p>
+                <img src="images/feed-image-1.png" class="post-img" alt="A developer working on a laptop with code on screen.">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like icon">120</div>
+                        <div><img src="images/comments.png" alt="comment icon">45</div>
+                        <div><img src="images/share.png" alt="share icon">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Your profile picture">  <i class="fa-solid fa-caret-down"> </i>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="post-container">
+                <header class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="John Nicholson's profile picture">
+                        <div>
+                            <p>John Nicholson</p>
+                           <time datetime="2024-07-24T13:40:00">July 24 2024, 13:40 pm</time>
+                        </div>
+                    </div>
+                    <a href="#" aria-label="Post options"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </header>
+               
+                <p class="post-text">Like and Share this video with friends,<span> @Somthing </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Deserunt natus recusandae, magnam nulla vel in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aspernatur.<a href="#">Instagram</a>
+                <a href="#">YouTubeChannel</a></p>
+                <img src="images/feed-image-2.png" class="post-img" alt="A person standing on a beach during sunset.">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like icon">220</div>
+                        <div><img src="images/comments.png" alt="comment icon">54</div>
+                        <div><img src="images/share.png" alt="share icon">35</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Your profile picture">  <i class="fa-solid fa-caret-down"> </i>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="post-container">
+                <header class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="John Nicholson's profile picture">
+                        <div>
+                            <p>John Nicholson</p>
+                           <time datetime="2024-08-24T13:40:00">August 24 2024, 13:40 pm</time>
+                        </div>
+                    </div>
+                    <a href="#" aria-label="Post options"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </header>
+               
+                <p class="post-text">Like and Share this video with friends,<span> @Nomthing </span> Lorem ipsum dolor sit
+                     amet, consectetur adipisicing elit. 
+                    Deserunt natus recusandae, magnam nulla vel in? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Culpa dolor unde maxime aliquid reiciendis alias ullam ipsam delectus maiores fuga! <a href="#">Instagram</a>
+                <a href="#">YouTubeChannel</a></p>
+                <img src="images/feed-image-3.png" class="post-img" alt="A group of people working together in an office.">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like icon">320</div>
+                        <div><img src="images/comments.png" alt="comment icon">450</div>
+                        <div><img src="images/share.png" alt="share icon">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Your profile picture">  <i class="fa-solid fa-caret-down"> </i>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="post-container">
+                <header class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="John Nicholson's profile picture">
+                        <div>
+                            <p>John Nicholson</p>
+                           <time datetime="2024-09-24T13:40:00">September 24 2024, 13:40 pm</time>
+                        </div>
+                    </div>
+                    <a href="#" aria-label="Post options"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </header>
+               
+                <p class="post-text">Like and Share this video with friends,<span> @Nomthing </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quod
+                     aliquid quasi non dolore sint tempore ut totam voluptatum voluptates, quibusdam amet quas perspiciatis voluptatem optio nemo iure perferendis. Culpa.
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis esse amet maiores eum nulla. Quisquam.<a href="#">Instagram</a>
+                <a href="#">YouTubeChannel</a></p>
+                <img src="images/feed-image-4.png" class="post-img" alt="A close-up of a computer motherboard.">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like icon">320</div>
+                        <div><img src="images/comments.png" alt="comment icon">450</div>
+                        <div><img src="images/share.png" alt="share icon">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Your profile picture">  <i class="fa-solid fa-caret-down"> </i>
+                    </div>
+                </div>
+            </article>
+
+
+
+
+            <article class="post-container">
+                <header class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="John Nicholson's profile picture">
+                        <div>
+                            <p>John Nicholson</p>
+                           <time datetime="2024-12-24T13:40:00">December 24 2024, 13:40 pm</time>
+                        </div>
+                    </div>
+                    <a href="#" aria-label="Post options"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </header>
+               
+                <p class="post-text">Like and Share this video with friends,<span> @Nomthing </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Deserunt natus recusandae, magnam nulla vel in? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, alias quasi. Voluptatibus quam 
+                    reiciendis voluptate, laborum laudantium totam facilis sequi in quas velit enim ipsum est voluptatum, a asperiores laboriosam! Aliquid recusandae
+                     pariatur, nulla repellendus fugiat possimus cupiditate vero culpa? <a href="#">Instagram</a>
+                <a href="#">YouTubeChannel</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">320</div>
+                        <div><img src="images/comments.png">450</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">  <i class="fa-solid fa-caret-down"> </i>
+                    </div>
+                </div>
+            </article>
+
+            <button type="button" class="load-more-btn">See More</button>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <!-- -----------right-sidebar---------- -->
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>  Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>Oct</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>  Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png">
+                </div>
+                    <p>Alison Mine</p>
+                </div>
+
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png">
+                </div>
+                    <p>Jackson Aston</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png">
+                </div>
+                    <p>Samona Rose</p>
+                </div>
+
+
+    </div>
+</div>
+
+
+
+<!-- <div class="footer">
+    <p>Copyright 2024 - @@@@@@@@ YouTube Channel</p>
+</div> -->
+
+<script src="script.js"></script>
+</body>
+</html>
